@@ -1,11 +1,41 @@
-*{
-  /* border: 1px solid red; */
-  margin:0;
-  padding:0;
-}
+/* * {
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+} */
 .bg-dark {
-    background-color: transparent,!important;
+  background-color: transparent !important;
 }
- body{
-  background-image: url("img/pro.jpg");
+body {
+  background-image: url("../img/pablo.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ {
+}
+.nav-menu {
+  list-style: none;
+  margin-top: 30px;
+  float: right;
+}
+.bg-light {
+  background-color: transparent;
+}
+
+.container {
+  height: 438px;
+  position: relative;
+  border: 3px solid green;
+  text-align: center;
+}
+.vertical-center {
+  height: 100px;
+}
+.btn-group-lg > .btn,
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 40;
+  line-height: 4rem;
+  border-radius: 0.3rem;
 }
